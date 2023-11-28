@@ -1,4 +1,3 @@
-
 /* Setup Scrolling */
 html,
 body {
@@ -25,16 +24,15 @@ body {
   position: relative;
   box-sizing: border-box;
 
-  padding: 4em;
+  padding: 3em;
 }
 
 .one {
-  background: blue;
+  background: #fff;
 }
 
 .two {
-  background: url(https://images.unsplash.com/photo-1521302080334-4bebac2763a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExOTk0ODF8&ixlib=rb-4.0.3&q=80&w=400)
-    no-repeat;
+  background: url(https://images.unsplash.com/photo-1500353391678-d7b57979d6d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExOTk0ODF8&ixlib=rb-4.0.3&q=80&w=400) no-repeat;
 }
 
 .three {
@@ -49,14 +47,16 @@ body {
   background: #333;
 }
 
-.six {
-  background: orange;
-  transform: translateX(-500px);
-}
 .one h1 {
   transform: rotate(90deg);
+  opacity: 0;
 }
 
 .three p {
   letter-spacing: 100px;
+}
+
+.six {
+/*   transform: translateX(-500px) */
+  translateX: -500px
 }
