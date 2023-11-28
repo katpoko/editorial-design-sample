@@ -1,3 +1,62 @@
+
+/* Setup Scrolling */
+html,
 body {
-    background: #44d25e;
+  margin: 0;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* Panel Defaults */
+.panel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+  box-sizing: border-box;
+
+  padding: 4em;
+}
+
+.one {
+  background: blue;
+}
+
+.two {
+  background: url(https://images.unsplash.com/photo-1521302080334-4bebac2763a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExOTk0ODF8&ixlib=rb-4.0.3&q=80&w=400)
+    no-repeat;
+}
+
+.three {
+  background: #bdc3c7;
+}
+
+.four {
+  background: #7b7d7d;
+}
+
+.five {
+  background: #333;
+}
+
+.six {
+  background: orange;
+  transform: translateX(-500px);
+}
+.one h1 {
+  transform: rotate(90deg);
+}
+
+.three p {
+  letter-spacing: 100px;
 }
